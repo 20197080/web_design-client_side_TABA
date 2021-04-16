@@ -3,6 +3,26 @@ juarez.css
 Author: Juarez Barbosa Junior - Student ID 20197080 
 */
 
+/* gradient background colours */
+
+body {
+	background-image: linear-gradient(
+		to right bottom,
+		#d16d6b,
+		#de8168,
+		#e79767,
+		#ecad69,
+		#ecc571,
+		#d1d175,
+		#b2dc85,
+		#8fe49e,
+		#38ddc1,
+		#00d1e4,
+		#00c0fb,
+		#5faafb
+	);
+}
+
 /* styling for the header element - custom color */
 h1 {
 	color: #0099ff;

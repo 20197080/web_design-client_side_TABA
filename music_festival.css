@@ -3,6 +3,13 @@ finnegans.css
 Author: Juarez Barbosa Junior - Student ID 20197080 
 */
 
+/* background gradient */
+
+body {
+	background-image: url('password.png');
+	background-repeat: repeat;
+}
+
 /* styling for the header element - custom color */
 h1 {
 	color: #0099ff;
