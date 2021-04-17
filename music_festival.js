@@ -1,4 +1,4 @@
-// finnegans.js 
+// music_festival.js 
 //Author: Juarez Barbosa Junior - Student ID 20197080 
 
 //function to validate the user details - delegates validation to specific username and password
@@ -48,11 +48,38 @@ function validatePassword() {
 }
 
 //function present a successful login message on the order page
-function loginSuccessful() {
+function loginSuccessfulHome() {
     jQuery("body").overhang({
         type: "success",
         duration: 3,
-        message: "Login successful!"
+        message: "Welcome to Rock and Pop Festival - April 2021 in Dublin, Ireland!"
+    });
+}
+
+//function present a successful login message on the order page
+function loginSuccessfulLineUp() {
+    jQuery("body").overhang({
+        type: "success",
+        duration: 3,
+        message: "Unique line-up with top worldwide DJs!"
+    });
+}
+
+//function present a successful login message on the order page
+function loginSuccessfulTickets() {
+    jQuery("body").overhang({
+        type: "success",
+        duration: 3,
+        message: "Early Bird's promo last day, reserve your ticket now!"
+    });
+}
+
+//function present a successful login message on the order page
+function loginSuccessfulContactUs() {
+    jQuery("body").overhang({
+        type: "success",
+        duration: 3,
+        message: "Our events team is available 24 x 7 to support your queries!"
     });
 }
 

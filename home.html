@@ -2,14 +2,34 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!-- Festival Home page -->
+		<meta name="description" content="Festival Portal - Landing Page" />
+		<!-- web page title -->
 		<title>Home</title>
+		<!-- Authors: Juarez, Claudia, Shane -->
+		<meta name="author" content="Juarez, Claudia, Shane" />
 		<!--responsive design adjustments-->
 		<meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0" />
-		<!-- my custom CSS for the Finnegan's restaurant-->
+		<!-- Character set -->
+		<meta charset="utf-8" />
+		<!-- Favicon-->
+		<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+		<!-- Rock and Pop JS file-->
+		<script src="music_festival.js"></script>
+		<!-- Font Awesome icons (free version)-->
+		<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+		<!-- Google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" />
+		<!-- Core theme CSS (includes Bootstrap)-->
+		<link href="css/styles.css" rel="stylesheet" />
+		<!-- Juarez's CSS file -->
 		<link rel="stylesheet" type="text/css" href="juarez.css" />
-		<link rel="stylesheet" type="text/css" href="claudia.css" />
-		<link rel="stylesheet" type="text/css" href="shane.css" />
-		<link rel="stylesheet" type="text/css" href="music_festival.css" />
 		<!-- jquery related CSSes-->
 		<link rel="stylesheet" type="text/css" href="jquery-ui.css" />
 		<link rel="stylesheet" type="text/css" href="jquery-ui.theme.css" />
@@ -21,11 +41,57 @@
 		<script type="text/javascript" src="jquery-ui.js"></script>
 		<!--overhang js file -->
 		<script type="text/javascript" src="overhang.min.js"></script>
-		<script src="music_festival.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" />
 	</head>
 	<!-- body onload event with login successful message after authentication -->
-	<body onload="loginSuccessful()">
-		<h1>Home</h1>
+	<body onload="loginSuccessfulHome()">
+		<div class="container">
+			<div class="festival_label_box">
+				<element class="custom_font">Home</element>
+			</div>
+			<div class="festival_label_box">
+				<element class="custom_font">Tickets</element>
+			</div>
+			<div class="festival_label_box">
+				<element class="custom_font">Line up</element>
+			</div>
+			<div class="festival_label_box">
+				<element class="custom_font">Contact Us</element>
+			</div>
+		</div>
+		<div class="container">
+			<div class="festival_common_box"></div>
+			<div class="festival_common_box">
+				<img src="festival_name.png" alt="Pop and Rock Festival" />
+			</div>
+			<div class="festival_common_box"></div>
+		</div>
+
+		<div class="container">
+			<div class="festival_location_box">
+				<figure class="change-ratio">
+					<img src="location.png" alt="Dublin, Ireland" />
+				</figure>
+			</div>
+			<div class="festival_common_box"></div>
+			<div class="festival_date_box">
+				<figure class="change-ratio">
+					<img src="date.png" alt="April 20th 2021" />
+				</figure>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="festival_common_box"></div>
+			<div class="festival_common_box">
+				<input
+					type="email"
+					id="email"
+					name="email"
+					size="50"
+					value="Sign up for updates: enter your email address here and press Enter"
+				/>
+			</div>
+			<div class="festival_common_box"></div>
+		</div>
 	</body>
 </html>

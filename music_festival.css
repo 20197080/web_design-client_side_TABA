@@ -1,13 +1,89 @@
 /*
-finnegans.css
+music_festival.css
 Author: Juarez Barbosa Junior - Student ID 20197080 
 */
 
 /* background gradient */
-
 body {
-	background-image: url('password.png');
-	background-repeat: repeat;
+	background-image: linear-gradient(
+		to top,
+		#d16d6b,
+		#de8168,
+		#e79767,
+		#ecad69,
+		#ecc571,
+		#d1d175,
+		#b2dc85,
+		#8fe49e,
+		#38ddc1,
+		#00d1e4,
+		#00c0fb,
+		#5faafb
+	);
+}
+
+figure {
+	width: 200px;
+	overflow: hidden;
+	margin: 0;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	display: block;
+}
+
+.change-ratio img {
+	margin: -20% 0;
+}
+
+.container {
+	display: flex;
+}
+
+.festival_common_box {
+	align-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+}
+
+.festival_label_box {
+	align-items: center;
+	align-content: flex-start; /* cross Y */
+	justify-content: left; /* axis X */
+	flex-grow: 1;
+	font-family: Fira-Sans;
+}
+
+.festival_location_box {
+	align-items: flex-start;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 2;
+}
+
+.festival_date_box {
+	align-items: flex-end;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 2;
+}
+
+.email_box {
+	align-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+	font-family: Fira-Sans;
+}
+
+.container > div {
+	font-size: 1.5vw;
+	font-family: Fira-Sans;
+	padding: 0.25em;
+	color: #f67313;
 }
 
 /* styling for the header element - custom color */

@@ -3,34 +3,101 @@ juarez.css
 Author: Juarez Barbosa Junior - Student ID 20197080 
 */
 
-/* gradient background colours */
 
-body {
-	background-image: linear-gradient(
-		to right bottom,
-		#d16d6b,
-		#de8168,
-		#e79767,
-		#ecad69,
-		#ecc571,
-		#d1d175,
-		#b2dc85,
-		#8fe49e,
-		#38ddc1,
-		#00d1e4,
-		#00c0fb,
-		#5faafb
-	);
+figure {
+	width: 200px;
+	overflow: hidden;
+	margin: 0;
+}	
+
+img {
+	width: 200px;
+	height: 200px;
+	display: block;	
+}
+
+.custom_font {
+	font-family: Fira Sans, sans-serif; 
+	font-size: 30px;
+	color: white;	
+}
+
+.change-ratio img {
+	margin: -20% 0;
+}
+
+.container {
+	display: flex;
+}
+
+.festival_common_box {
+	align-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+}
+
+.festival_painted_box {
+	background-color: #f67313;
+	align-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+}
+
+.festival_bands_box {
+	align-items: center;
+	align-content: center; /* cross Y */				
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+}
+
+.festival_label_box {
+	align-items: center;
+	align-content: flex-start; /* cross Y */
+	justify-content: left; /* axis X */
+	flex-grow: 1;	
+}
+
+.festival_location_box {
+	align-items: flex-start;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 2;
+}
+
+.festival_date_box {
+	align-items: flex-end;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 2;
+}
+
+.email_box {
+	align-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+	
+}
+
+.container > div {
+	font-size: 1.5vw;
+
+	padding: 0.25em;
+	color: #f67313;
 }
 
 /* styling for the header element - custom color */
-h1 {
-	color: #0099ff;
+h1, h2, h3 {
+	color: white;
+	font-family: Fira Sans, sans-serif; 
+
 }
 
 /* styling for the caption element - custom color and font size */
 caption {
-	color: #0099ff;
+	color: #f67313;
 	font-size: 25px;
 }
 
@@ -40,7 +107,7 @@ custom parameters for background-color, color, padding, font-size, position and 
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
-	background-color: #0099ff;
+	background-color: #f67313;
 	color: #ffffff;
 	background-repeat: no-repeat;
 	padding: 18px 36px;
@@ -56,7 +123,7 @@ input[type='submit'] {
 custom parameters for background-color, color, padding,margin, padding-left and others
 */
 select {
-	background-color: #0099ff;
+	background-color: #f67313;
 	color: #ffffff;
 	border: none;
 	padding: 18px 32px;
@@ -69,7 +136,7 @@ select {
 custom parameters for background-color, color, background-image, padding and others
 */
 .userNameClass {
-	background-color: #0099ff;
+	background-color: #f67313;
 	background-image: url('person.png');
 	color: #ffffff;
 	background-repeat: no-repeat;
@@ -84,7 +151,7 @@ custom parameters for background-color, color, background-image, padding and oth
 custom parameters for background-color, color, padding, margin, and others
 */
 input[type='text'] {
-	background-color: #0099ff;
+	background-color: #f67313;
 	color: #ffffff;
 	background-repeat: no-repeat;
 	padding: 18px 36px;
@@ -98,7 +165,7 @@ input[type='text'] {
 custom parameters for background-color, background-image, color, padding, margin, and others
 */
 input[type='password'] {
-	background-color: #0099ff;
+	background-color: #f67313;
 	background-image: url('password.png');
 	color: #ffffff;
 	background-repeat: no-repeat;
@@ -113,7 +180,7 @@ input[type='password'] {
 custom parameters for background-color, background-image, color, padding, margin, and others
 */
 input[type='number'] {
-	background-color: #0099ff;
+	background-color: #f67313;
 
 	color: #ffffff;
 	background-repeat: no-repeat;
@@ -136,7 +203,7 @@ input[type='select']:focus {
 /* custom style for the label types
 */
 label {
-	color: #0099ff;
+	color: #f67313;
 	padding: 18px 36px;
 	text-decoration: none;
 	margin: 5px 4px;
