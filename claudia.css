@@ -3,6 +3,30 @@ claudia.css
 Author: Claudia dos Anjos - Student ID xxx 
 */
 
+@charset "UTF-8";
+
+.festival_home_title {
+	position: relative;
+	top: 40px;
+	left: 10px;
+}
+
+.festival_bands {
+	position: relative;
+	top: 80px;
+	left: 15px;
+}
+
+.oval_lineup {
+	height: 380px;
+	width: 975px;
+	background-color: #f67313;
+	border-radius: 50%;
+	position: relative;
+	top: 80px;
+	left: 260px;
+}
+
 figure {
 	width: 200px;
 	overflow: hidden;
@@ -16,9 +40,9 @@ img {
 }
 
 .custom_font {
-	font-family: Fira Sans, sans-serif; 
+	font-family: Fira Sans, sans-serif;
 	font-size: 30px;
-	color: white;	
+	color: black;
 }
 
 .change-ratio img {
@@ -70,7 +94,9 @@ img {
 	align-content: center; /* cross Y */
 	justify-content: center; /* axis X */
 	flex-grow: 1;
-	font-family: Fira-Sans;
+	position: relative;
+	top: 100px;
+	font-family: Fira Sans, sans-serif;
 }
 
 .container > div {

@@ -43,72 +43,85 @@
 		<script type="text/javascript" src="overhang.min.js"></script>
 	</head>
 	<!-- body onload event with login successful message after authentication -->
-	<body onload="loginSuccessfulTickets()">
-		<div class="container">
-			<div class="festival_label_box">
-				<element class="custom_font">Home</element>
-			</div>
-			<div class="festival_label_box">
-				<element class="custom_font">Tickets</element>
-			</div>
-			<div class="festival_label_box">
-				<element class="custom_font">Line up</element>
-			</div>
-			<div class="festival_label_box">
-				<element class="custom_font">Contact Us</element>
-			</div>
-		</div>
+	<body onload="">
+		<form>
+			<table>
+				<th id="heading"></th>
+				<tr>
+					<div class="container">
+						<div class="festival_label_box">
+							<element class="custom_font">HOME</element>
+						</div>
+						<div class="festival_label_box">
+							<element class="custom_font">TICKETS</element>
+						</div>
+						<div class="festival_label_box">
+							<element class="custom_font">LINE UP</element>
+						</div>
+						<div class="festival_label_box">
+							<element class="custom_font">CONTACT US</element>
+						</div>
+					</div>
+				</tr>
 
-		<div class="container">
-			<div class="festival_common_box"></div>
-			<div class="festival_common_box">
-				<img src="tickets.png" alt="Tickets" />
-			</div>
-			<div class="festival_common_box"></div>
-		</div>
+				<div class="container">
+					<div class="festival_common_box"></div>
+					<div class="festival_tickets_actions">
+						<img src="tickets.png" alt="Tickets" />
+					</div>
+					<div class="festival_common_box"></div>
+				</div>
 
-		<div class="container">
-			<div class="festival_common_box"></div>
-			<div class="festival_common_box">
-				<img src="date.png" alt="Dates" />
-			</div>
-			<div class="festival_common_box"></div>
-		</div>
+				<div class="container">
+					<div class="festival_common_box"></div>
+					<div class="festival_tickets_actions">
+						<img src="date.png" alt="Dates" />
+					</div>
+					<div class="festival_common_box"></div>
+				</div>
 
-		<div class="container">
-			<div class="festival_common_box">
-				<img src="1_day_pass.png" alt="One day pass" />
-			</div>
+				<div class="container">
+					<div class="festival_common_box"></div>
+					<div class="img_round">
+						<img src="1_day_pass.png" class="img_round" alt="One day pass" />
+					</div>
+					<div class="festival_common_box"></div>
 
-			<div class="festival_common_box">
-				<img src="2_day_pass.png" alt="Two day pass" />
-			</div>
+					<div class="festival_common_box"></div>
+					<div class="img_round">
+						<img src="2_day_pass.png" class="img_round" alt="Two day pass" />
+					</div>
+					<div class="festival_common_box"></div>
 
-			<div class="festival_common_box">
-				<img src="weekend_pass.png" alt="Weekend pass" />
-			</div>
-		</div>
+					<div class="festival_common_box"></div>
+					<div class="img_round">
+						<img src="weekend_pass.png" class="img_round" alt="Weekend pass" />
+					</div>
+					<div class="festival_common_box"></div>
+				</div>
 
-		<div class="container">
-			<div class="festival_common_box"></div>
-			<div class="festival_common_box">
-				<img src="buy_now.png" alt="Buy now" />
-			</div>
-			<div class="festival_common_box"></div>
-		</div>
+				<div class="container">
+					<div class="festival_common_box"></div>
+					<div class="festival_ticket_buy_now">
+						<img src="buy_now.png" alt="Buy now" />
+					</div>
+					<div class="festival_common_box"></div>
+				</div>
 
-		<div class="container">
-			<div class="festival_common_box"></div>
-			<div class="festival_common_box">
-				<input
-					type="email"
-					id="email"
-					name="email"
-					size="50"
-					value="Sign up for updates: enter your email address here and press Enter"
-				/>
-			</div>
-			<div class="festival_common_box"></div>
-		</div>
+				<div class="container">
+					<div class="festival_common_box"></div>
+					<div class="festival_common_box">
+						<input
+							type="email"
+							id="email"
+							name="email"
+							size="80"
+							value="Sign up for updates: enter your email address here and press Enter"
+						/>
+					</div>
+					<div class="festival_common_box"></div>
+				</div>
+			</table>
+		</form>
 	</body>
 </html>

@@ -3,23 +3,43 @@ juarez.css
 Author: Juarez Barbosa Junior - Student ID 20197080 
 */
 
+@charset "UTF-8";
 
 figure {
 	width: 200px;
 	overflow: hidden;
 	margin: 0;
-}	
+}
 
 img {
 	width: 200px;
 	height: 200px;
-	display: block;	
+	display: block;
+}
+
+.oval {
+	height: 450px;
+	width: 900px;
+	background-color: #f67313;
+	border-radius: 50%;
+	position: relative;
+	top: 50px;
+	left: 240px;
+}
+
+.rectangle {
+	height: 330px;
+	width: 600px;
+	background-color: #f67313;
+	position: relative;
+	top: 50px;
+	left: 420px;
 }
 
 .custom_font {
-	font-family: Fira Sans, sans-serif; 
+	font-family: Fira Sans, sans-serif;
 	font-size: 30px;
-	color: white;	
+	color: black;
 }
 
 .change-ratio img {
@@ -28,6 +48,28 @@ img {
 
 .container {
 	display: flex;
+}
+
+.festival_home_title {
+	position: relative;
+	top: 60px;
+	left: 20px;
+}
+
+.festival_tickets_actions {
+	align-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+	position: relative;
+	top: 5px;
+	left: 300px;
+}
+
+.festival_home_date {
+	position: relative;
+	top: 10px;
+	left: 250px;
 }
 
 .festival_common_box {
@@ -47,16 +89,17 @@ img {
 
 .festival_bands_box {
 	align-items: center;
-	align-content: center; /* cross Y */				
+	align-content: center; /* cross Y */
 	justify-content: center; /* axis X */
 	flex-grow: 1;
 }
 
 .festival_label_box {
 	align-items: center;
-	align-content: flex-start; /* cross Y */
-	justify-content: left; /* axis X */
-	flex-grow: 1;	
+	justify-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
 }
 
 .festival_location_box {
@@ -64,6 +107,9 @@ img {
 	align-content: center; /* cross Y */
 	justify-content: center; /* axis X */
 	flex-grow: 2;
+	position: relative;
+	top: 60px;
+	left: 130px;
 }
 
 .festival_date_box {
@@ -71,6 +117,9 @@ img {
 	align-content: center; /* cross Y */
 	justify-content: center; /* axis X */
 	flex-grow: 2;
+	position: relative;
+	top: 60px;
+	left: 50px;
 }
 
 .email_box {
@@ -78,21 +127,23 @@ img {
 	align-content: center; /* cross Y */
 	justify-content: center; /* axis X */
 	flex-grow: 1;
-	
+	position: relative;
+	top: 100px;
+	font-family: Fira Sans, sans-serif;
 }
 
 .container > div {
 	font-size: 1.5vw;
-
 	padding: 0.25em;
 	color: #f67313;
 }
 
 /* styling for the header element - custom color */
-h1, h2, h3 {
-	color: white;
-	font-family: Fira Sans, sans-serif; 
-
+h1,
+h2,
+h3 {
+	color: black;
+	font-family: Fira Sans, sans-serif;
 }
 
 /* styling for the caption element - custom color and font size */

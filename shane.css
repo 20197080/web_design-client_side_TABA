@@ -3,6 +3,13 @@ shane.css
 Author: Shane Connor - Student ID xxx
 */
 
+@charset "UTF-8";
+
+.img_round {
+	border-radius: 50%;
+	width: 200px;
+}
+
 figure {
 	width: 200px;
 	overflow: hidden;
@@ -16,9 +23,9 @@ img {
 }
 
 .custom_font {
-	font-family: Fira Sans, sans-serif; 
+	font-family: Fira Sans, sans-serif;
 	font-size: 30px;
-	color: white;	
+	color: black;
 }
 
 .change-ratio img {

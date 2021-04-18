@@ -43,55 +43,67 @@
 		<script type="text/javascript" src="overhang.min.js"></script>
 	</head>
 	<!-- body onload event with login successful message after authentication -->
-	<body onload="loginSuccessfulHome()">
-		<div class="container">
-			<div class="festival_label_box">
-				<element class="custom_font">Home</element>
-			</div>
-			<div class="festival_label_box">
-				<element class="custom_font">Tickets</element>
-			</div>
-			<div class="festival_label_box">
-				<element class="custom_font">Line up</element>
-			</div>
-			<div class="festival_label_box">
-				<element class="custom_font">Contact Us</element>
-			</div>
-		</div>
-		<div class="container">
-			<div class="festival_common_box"></div>
-			<div class="festival_common_box">
-				<img src="festival_name.png" alt="Pop and Rock Festival" />
-			</div>
-			<div class="festival_common_box"></div>
-		</div>
+	<body onload="">
+		<form>
+			<table>
+				<th id="heading"></th>
+				<tr>
+					<div class="container">
+						<div class="festival_label_box">
+							<element class="custom_font">HOME</element>
+						</div>
+						<div class="festival_label_box">
+							<element class="custom_font">TICKETS</element>
+						</div>
+						<div class="festival_label_box">
+							<element class="custom_font">LINE UP</element>
+						</div>
+						<div class="festival_label_box">
+							<element class="custom_font">CONTACT US</element>
+						</div>
+					</div>
+				</tr>
+				<div class="oval">
+					<div class="container">
+						<div class="festival_common_box"></div>
+						<div class="festival_home_title">
+							<figure class="change-ratio">
+								<img src="festival_title_alone.png" alt="Rock and Pop Festival" />
+							</figure>
+						</div>
+						<div class="festival_common_box"></div>
+					</div>
 
-		<div class="container">
-			<div class="festival_location_box">
-				<figure class="change-ratio">
-					<img src="location.png" alt="Dublin, Ireland" />
-				</figure>
-			</div>
-			<div class="festival_common_box"></div>
-			<div class="festival_date_box">
-				<figure class="change-ratio">
-					<img src="date.png" alt="April 20th 2021" />
-				</figure>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="festival_common_box"></div>
-			<div class="festival_common_box">
-				<input
-					type="email"
-					id="email"
-					name="email"
-					size="50"
-					value="Sign up for updates: enter your email address here and press Enter"
-				/>
-			</div>
-			<div class="festival_common_box"></div>
-		</div>
+					<div class="container">
+						<div class="festival_location_box">
+							<figure class="change-ratio">
+								<img src="location.png" alt="Dublin, Ireland" />
+							</figure>
+						</div>
+						<div class="festival_common_box"></div>
+						<div class="festival_date_box">
+							<figure class="change-ratio">
+								<img src="date.png" alt="April 20th 2021" />
+							</figure>
+						</div>
+					</div>
+				</div>
+				<tr>
+					<div class="container">
+						<div class="festival_common_box"></div>
+						<div class="email_box">
+							<input
+								type="email"
+								id="email"
+								name="email"
+								size="80"
+								value="Sign up for updates: enter your email address here and press Enter"
+							/>
+						</div>
+						<div class="festival_common_box"></div>
+					</div>
+				</tr>
+			</table>
+		</form>
 	</body>
 </html>
