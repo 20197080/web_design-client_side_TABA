@@ -50,6 +50,7 @@ img {
 	margin: -20% 0;
 }
 
+/* initializes the flex box layout  */
 .container {
 	display: flex;
 }
