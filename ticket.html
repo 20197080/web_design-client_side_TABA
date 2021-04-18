@@ -28,8 +28,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" />
 		<!-- Core theme CSS (includes Bootstrap)-->
 		<link href="css/styles.css" rel="stylesheet" />
+
 		<!-- Shane's CSS file -->
 		<link rel="stylesheet" type="text/css" href="shane.css" />
+		<!-- Rock and Pop CSS file -->
+		<link rel="stylesheet" type="text/css" href="music_festival.css" />
+
 		<!-- jquery related CSSes-->
 		<link rel="stylesheet" type="text/css" href="jquery-ui.css" />
 		<link rel="stylesheet" type="text/css" href="jquery-ui.theme.css" />
@@ -50,23 +54,23 @@
 				<tr>
 					<div class="container">
 						<div class="festival_label_box">
-							<element class="custom_font">HOME</element>
+							<a class="custom_font" href="home.html">HOME</a>
 						</div>
 						<div class="festival_label_box">
-							<element class="custom_font">TICKETS</element>
+							<a class="custom_font" href="ticket.html">TICKETS</a>
 						</div>
 						<div class="festival_label_box">
-							<element class="custom_font">LINE UP</element>
+							<a class="custom_font" href="line_up.html">LINE UP</a>
 						</div>
 						<div class="festival_label_box">
-							<element class="custom_font">CONTACT US</element>
+							<a class="custom_font" href="contact_us.html">CONTACT US</a>
 						</div>
 					</div>
 				</tr>
 
 				<div class="container">
 					<div class="festival_common_box"></div>
-					<div class="festival_tickets_actions">
+					<div class="">
 						<img src="tickets.png" alt="Tickets" />
 					</div>
 					<div class="festival_common_box"></div>
@@ -74,7 +78,7 @@
 
 				<div class="container">
 					<div class="festival_common_box"></div>
-					<div class="festival_tickets_actions">
+					<div class="">
 						<img src="date.png" alt="Dates" />
 					</div>
 					<div class="festival_common_box"></div>
@@ -102,25 +106,26 @@
 
 				<div class="container">
 					<div class="festival_common_box"></div>
-					<div class="festival_ticket_buy_now">
+					<div class="">
 						<img src="buy_now.png" alt="Buy now" />
 					</div>
 					<div class="festival_common_box"></div>
 				</div>
-
-				<div class="container">
-					<div class="festival_common_box"></div>
-					<div class="festival_common_box">
-						<input
-							type="email"
-							id="email"
-							name="email"
-							size="80"
-							value="Sign up for updates: enter your email address here and press Enter"
-						/>
+			
+					<div class="container">
+						<div class="festival_common_box"></div>
+						<div class="email_box_tickets">
+							<input
+								type="email"
+								id="email"
+								name="email"
+								size="80"
+								value="Sign up for updates: enter your email address here and press Enter"
+							/>
+						</div>
+						<div class="festival_common_box"></div>
 					</div>
-					<div class="festival_common_box"></div>
-				</div>
+			
 			</table>
 		</form>
 	</body>

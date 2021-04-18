@@ -28,8 +28,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" />
 		<!-- Core theme CSS (includes Bootstrap)-->
 		<link href="css/styles.css" rel="stylesheet" />
+
 		<!-- Claudia's CSS file -->
-		<link rel="stylesheet" type="text/css" href="claudia.css" />		
+		<link rel="stylesheet" type="text/css" href="claudia.css" />
+		<!-- Rock and Pop CSS file -->
+		<link rel="stylesheet" type="text/css" href="music_festival.css" />
+
 		<!-- jquery related CSSes-->
 		<link rel="stylesheet" type="text/css" href="jquery-ui.css" />
 		<link rel="stylesheet" type="text/css" href="jquery-ui.theme.css" />
@@ -42,50 +46,62 @@
 		<!--overhang js file -->
 		<script type="text/javascript" src="overhang.min.js"></script>
 	</head>
-	
+
 	<!-- body onload event with login successful message after authentication -->
 	<body onload="">
-		
-		<div class="container">
-			<div class="festival_label_box">
-				<element class="custom_font">Home</element>
-			</div>
-			<div class="festival_label_box">
-				<element class="custom_font">Tickets</element>
-			</div>
-			<div class="festival_label_box">
-				<element class="custom_font">Line up</element>
-			</div>
-			<div class="festival_label_box">
-				<element class="custom_font">Contact Us</element>
-			</div>
-		</div>
+		<form>
+			<table>
+				<th id="heading"></th>
+				<tr>
+					<div class="container">
+						<div class="festival_label_box">
+							<a class="custom_font" href="home.html">HOME</a>
+						</div>
+						<div class="festival_label_box">
+							<a class="custom_font" href="ticket.html">TICKETS</a>
+						</div>
+						<div class="festival_label_box">
+							<a class="custom_font" href="line_up.html">LINE UP</a>
+						</div>
+						<div class="festival_label_box">
+							<a class="custom_font" href="contact_us.html">CONTACT US</a>
+						</div>
+					</div>
+				</tr>
 
-		<div class="container">
-			<div class="festival_common_box"></div>
-			<div class="festival_home_title">
-				<img src="festival_title_alone.png" alt="Pop and Rock Festival" />
-			</div>
-			<div class="festival_common_box"></div>
-		</div>
-		<div class="oval_lineup">
-		<div class="container">
-			<div class="festival_common_box"></div>
-			<div class="festival_bands">				
-					<img src="bands.png" alt="Full line up" />			
-			</div>
-			<div class="festival_common_box"></div>			
-		</div>
-		</div>
+				<div class="container">
+					<div class="festival_common_box"></div>
+					<div class="festival_home_title">
+						<img src="festival_title_alone.png" alt="Pop and Rock Festival" />
+					</div>
+					<div class="festival_common_box"></div>
+				</div>
+				<div class="oval_lineup">
+					<div class="container">
+						<div class="festival_common_box"></div>
+						<div class="festival_bands">
+							<img src="bands.png" alt="Full line up" />
+						</div>
+						<div class="festival_common_box"></div>
+					</div>
+				</div>
 
-		<div class="container">
-			<div class="festival_common_box"></div>
-			<div class="email_box">
-				<input type="email" id="email" name="email" size="80" value="Sign up for updates: enter your email address here and press Enter" />
-			</div>
-			<div class="festival_common_box"></div>
-		</div>
-
-
+				<tr>
+					<div class="container">
+						<div class="festival_common_box"></div>
+						<div class="email_box_lineup">
+							<input
+								type="email"
+								id="email"
+								name="email"
+								size="100"
+								value="Sign up for updates: enter your email address here and press Enter"
+							/>
+						</div>
+						<div class="festival_common_box"></div>
+					</div>
+				</tr>
+			</table>
+		</form>
 	</body>
 </html>

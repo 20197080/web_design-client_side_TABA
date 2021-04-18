@@ -3,6 +3,12 @@ music_festival.css
 Author: Juarez Barbosa Junior - Student ID 20197080 
 */
 
+/* remove text decoration from hyperlinks */
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
 /* background gradient */
 body {
 	background-image: linear-gradient(
@@ -32,6 +38,12 @@ img {
 	width: 200px;
 	height: 200px;
 	display: block;
+}
+
+.custom_font {
+	font-family: Fira Sans, sans-serif;
+	font-size: 30px;
+	color: black;
 }
 
 .change-ratio img {
@@ -64,19 +76,26 @@ img {
 	flex-grow: 2;
 }
 
+.festival_bands_box {
+	align-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+}
+
+.festival_painted_box {
+	background-color: #f67313;
+	align-items: center;
+	align-content: center; /* cross Y */
+	justify-content: center; /* axis X */
+	flex-grow: 1;
+}
+
 .festival_date_box {
 	align-items: flex-end;
 	align-content: center; /* cross Y */
 	justify-content: center; /* axis X */
 	flex-grow: 2;
-}
-
-.email_box {
-	align-items: center;
-	align-content: center; /* cross Y */
-	justify-content: center; /* axis X */
-	flex-grow: 1;
-	font-family: Fira-Sans;
 }
 
 .container > div {
@@ -86,122 +105,3 @@ img {
 	color: #f67313;
 }
 
-/* styling for the header element - custom color */
-h1 {
-	color: #0099ff;
-}
-
-/* styling for the caption element - custom color and font size */
-caption {
-	color: #0099ff;
-	font-size: 25px;
-}
-
-/* styling for the different input buttons - button, reset ands submit
-custom parameters for background-color, color, padding, font-size, position and others
-*/
-input[type='button'],
-input[type='reset'],
-input[type='submit'] {
-	background-color: #0099ff;
-	color: #ffffff;
-	background-repeat: no-repeat;
-	padding: 18px 36px;
-	text-decoration: none;
-	margin: 5px 4px;
-	cursor: pointer;
-	font-size: 20px;
-	position: relative;
-	right: -30px;
-}
-
-/* styling for the select element
-custom parameters for background-color, color, padding,margin, padding-left and others
-*/
-select {
-	background-color: #0099ff;
-	color: #ffffff;
-	border: none;
-	padding: 18px 32px;
-	text-decoration: none;
-	margin: 5px 4px;
-	padding-left: 60px;
-}
-
-/* custom CSS class for the username input text
-custom parameters for background-color, color, background-image, padding and others
-*/
-.userNameClass {
-	background-color: #0099ff;
-	background-image: url('person.png');
-	color: #ffffff;
-	background-repeat: no-repeat;
-	padding: 18px 36px;
-	text-decoration: none;
-	margin: 5px 4px;
-	background-size: 50px 50px;
-	padding-left: 60px;
-}
-
-/* custom CSS class for the input type equals text
-custom parameters for background-color, color, padding, margin, and others
-*/
-input[type='text'] {
-	background-color: #0099ff;
-	color: #ffffff;
-	background-repeat: no-repeat;
-	padding: 18px 36px;
-	text-decoration: none;
-	margin: 5px 4px;
-
-	padding-left: 60px;
-}
-
-/* custom CSS class for the input type equals password
-custom parameters for background-color, background-image, color, padding, margin, and others
-*/
-input[type='password'] {
-	background-color: #0099ff;
-	background-image: url('password.png');
-	color: #ffffff;
-	background-repeat: no-repeat;
-	padding: 18px 36px;
-	text-decoration: none;
-	margin: 5px 4px;
-	background-size: 50px 50px;
-	padding-left: 60px;
-}
-
-/* custom CSS class for the input type equals number
-custom parameters for background-color, background-image, color, padding, margin, and others
-*/
-input[type='number'] {
-	background-color: #0099ff;
-
-	color: #ffffff;
-	background-repeat: no-repeat;
-	padding: 18px 36px;
-	text-decoration: none;
-	margin: 5px 4px;
-	background-size: 50px 50px;
-	padding-left: 60px;
-}
-
-/* yellow border highlight for the differrnt input types - text, password, number, select
-*/
-input[type='text']:focus,
-input[type='password']:focus,
-input[type='number']:focus,
-input[type='select']:focus {
-	border: 5px solid #ffff00;
-}
-
-/* custom style for the label types
-*/
-label {
-	color: #0099ff;
-	padding: 18px 36px;
-	text-decoration: none;
-	margin: 5px 4px;
-	font-size: 20px;
-}

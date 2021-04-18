@@ -29,8 +29,11 @@
 		<link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css" />
 		<!-- Core theme CSS (includes Bootstrap)-->
 		<link href="css/styles.css" rel="stylesheet" />
+	
 		<!-- Juarez's CSS file -->
 		<link rel="stylesheet" type="text/css" href="juarez.css" />
+		<!-- Rock and Pop CSS file -->
+		<link rel="stylesheet" type="text/css" href="music_festival.css" />
 
 		<!-- jquery related CSSes-->
 		<link rel="stylesheet" type="text/css" href="jquery-ui.css" />
@@ -48,20 +51,21 @@
 	<body onload="">
 		<form>
 			<table>
+				
 				<th id="heading"></th>
 				<tr>
 					<div class="container">
 						<div class="festival_label_box">
-							<element class="custom_font">HOME</element>
+							<a class="custom_font" href="home.html">HOME</a>
 						</div>
 						<div class="festival_label_box">
-							<element class="custom_font">TICKETS</element>
+							<a class="custom_font" href="ticket.html">TICKETS</a>
 						</div>
 						<div class="festival_label_box">
-							<element class="custom_font">LINE UP</element>
+							<a class="custom_font" href="line_up.html">LINE UP</a>
 						</div>
 						<div class="festival_label_box">
-							<element class="custom_font">CONTACT US</element>
+							<a class="custom_font" href="contact_us.html">CONTACT US</a>
 						</div>
 					</div>
 				</tr>
@@ -70,7 +74,7 @@
 					<div class="container">
 						<div class="festival_painted_box"></div>
 						<div class="festival_painted_box">
-							<h3>CONTACT ROCK AND POP FESTIVAL</h3>
+							<h2 class="custom_font">ROCK AND POP FESTIVAL - CONTACT US</h2>						
 						</div>
 						<div class="festival_painted_box"></div>
 					</div>
@@ -84,7 +88,21 @@
 					<div class="container">
 						<div class="festival_painted_box"></div>
 						<div class="festival_painted_box">
-							<h3>FOR GENERAL ENQUIRIES EMAIL US ROCKANDPOPFESTIVAL@NCI.IE</h3>
+							<h2 class="custom_font">FOR GENERAL ENQUIRIES - EMAIL US AT ROCKANDPOPFESTIVAL@NCI.IE</h2>							
+						</div>
+						<div class="festival_painted_box"></div>
+					</div>
+
+					<div class="container">
+						<div class="festival_painted_box"></div>
+						<div class="festival_painted_box"></div>
+						<div class="festival_painted_box"></div>
+					</div>
+
+					<div class="container">
+						<div class="festival_painted_box"></div>
+						<div class="festival_painted_box">												
+							<h2 class="custom_font">VENUE: MAYOR STREET, IFCS, DUBLIN 1</h2>							
 						</div>
 						<div class="festival_painted_box"></div>
 					</div>
@@ -98,21 +116,7 @@
 					<div class="container">
 						<div class="festival_painted_box"></div>
 						<div class="festival_painted_box">
-							<h3>VENUE: MAYOR STREE, IFCS, DUBLIN 1</h3>
-						</div>
-						<div class="festival_painted_box"></div>
-					</div>
-
-					<div class="container">
-						<div class="festival_painted_box"></div>
-						<div class="festival_painted_box"></div>
-						<div class="festival_painted_box"></div>
-					</div>
-
-					<div class="container">
-						<div class="festival_painted_box"></div>
-						<div class="festival_painted_box">
-							<h3>GATES OPENING: 02:00 PM IST</h3>
+							<h2 class="custom_font">GATES OPENING: 02:00 PM IST</h2>							
 						</div>
 						<div class="festival_painted_box"></div>
 					</div>
@@ -121,12 +125,12 @@
 				<tr>
 					<div class="container">
 						<div class="festival_common_box"></div>
-						<div class="email_box">
+						<div class="email_box_contact_us">
 							<input
 								type="email"
 								id="email"
 								name="email"
-								size="80"
+								size="100"
 								value="Sign up for updates: enter your email address here and press Enter"
 							/>
 						</div>
